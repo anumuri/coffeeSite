@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<header>
+    <h1>КофеОК</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li id="menu" class="dropdown">
+                <a href="#">Меню</a>
+                <ul id="menuItems" class="dropdown-content">
+                    <li><a href="coffee.html">Кофе</a></li>
+                    <li><a href="cold_drinks.html">Холодные напитки</a></li>
+                    <li><a href="desserts.html">Десерты</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">О нас</a></li>
+        </ul>
+    </nav>
+</header>
+    <body>
+
+     <h1>Добро пожаловать в КофеОК</h1>
+<section id="gallery">
+    <div class="gallery-slider">
+        <div class="gallery-item">
+            <img src="C:\Users\PC\Desktop\kafeSite\photogall\1.jpg" alt="Фото 1">
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\PC\Desktop\kafeSite\photogall\2.jpg" alt="Фото 2">
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\PC\Desktop\kafeSite\photogall\3.jpg" alt="Фото 3">
+        </div>
+        <!-- Добавьте еще фотографий по аналогии -->
+    </div>
+</section>
+        
+<section id="news">
+    <h2>Новости</h2>
+    <div id="news-container" class="news-container">
+        <div class="news-item">
+            <div class="news-frame">
+                <h3 class="news-title">Новость 1</h3>
+                <p class="news-content">Содержание новости 1.</p>
+            </div>
+        </div>
+        <!-- Добавьте еще новостей по аналогии -->
+    </div>
+</section>
+
+
+       <!-- Подключаем Slick Slider -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>  
+
+<script src="jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="gallery-slider.js"></script>
+    <script src="loadNews.js"></script>
+    <script src="menu.js"></script>
+
+</body>
+</html>
